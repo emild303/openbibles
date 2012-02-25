@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+<TextView android:text="@string/importWarning_label" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	android:textAppearance="?android:attr/textAppearanceMedium">
+</TextView>
+<View android:layout_height="10px" android:layout_width="fill_parent"/>
+<!-- 
+<TextView android:text="@string/selectBookmark_label" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+ -->
+<Spinner android:id="@+id/spnBookmarkFile" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+</LinearLayout>

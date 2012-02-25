@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    >
+
+<Button android:id="@+id/btnBrowse"   	
+   	android:layout_width="wrap_content"
+   	android:layout_height="wrap_content"   	
+   	android:text="@string/browse"
+   	android:layout_marginLeft="10dp"
+   	/>
+   	   	
+<EditText android:id="@+id/edtBook" android:layout_width="150sp" android:layout_height="wrap_content"
+	android:inputType="textCapWords" android:singleLine="true" android:layout_weight="1.0"
+	android:layout_marginLeft="10dp" android:layout_marginRight="10dp" 
+	/>
+
+
+
+
+
+<!--     
+<TextView android:text="@string/gotoBible_label" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Spinner android:id="@+id/spnBible" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+<TableLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<TableRow>
+<TextView android:text="@string/gotoBookAndChapter" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.7"></TextView>
+<TextView android:text="@string/gotoChapter_label" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.3"></TextView>
+</TableRow>
+<TableRow>
+<EditText android:id="@+id/edtBook" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:inputType="textCapWords" android:singleLine="true" android:layout_weight="0.7"/>
+<EditText android:id="@+id/edtChapter" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:inputType="number" android:singleLine="true" android:layout_weight="0.3"/>
+</TableRow>
+</TableLayout>
+ -->
+</LinearLayout>

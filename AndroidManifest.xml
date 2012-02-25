@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.konibee.bible"
+      android:versionCode="17"
+      android:versionName="5.3">
+    <uses-sdk android:minSdkVersion="4" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name_label">
+        <activity android:name=".BiblesOffline"
+                  android:label="@string/app_name_label"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About"
+        	android:configChanges="orientation|keyboardHidden"
+			android:label="@string/about_title" 
+			android:theme="@android:style/Theme.Dialog" >
+		</activity>
+		<activity android:name=".AboutBible"
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/aboutbible_title" 
+			android:theme="@android:style/Theme.Dialog" >
+		</activity>
+		<activity android:name=".Bookmarks"
+			android:configChanges="orientation|keyboardHidden" 
+			android:label="@string/bookmarks_title"> 
+		</activity>
+		<activity android:name=".Categories"
+			android:configChanges="orientation|keyboardHidden" 
+			android:label="@string/categories_title"> 
+		</activity>
+		<activity android:name=".Find" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/find_title"> 
+		</activity>
+		<activity android:name=".DownloadBible" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/downloadBible_title"> 
+		</activity>
+		<activity android:name=".DownloadBookmark" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/downloadBookmark_title"> 
+		</activity>
+		<activity android:name=".Help" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/help_title" 
+			android:theme="@android:style/Theme.Dialog" >
+		</activity>
+		<activity android:name=".GoTo" 
+			android:windowSoftInputMode="stateAlwaysVisible"
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/goto_title" 
+			android:theme="@android:style/Theme.Dialog" >
+		</activity>
+		<activity android:name=".SelectParallelBible" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/selectParallel_title" 
+			android:theme="@android:style/Theme.Dialog" >
+		</activity>
+		<activity android:name=".BrowseBook" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/browseBook_title" 
+			>
+		</activity>
+		<activity android:name=".BrowseChapter"
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/browseChapter_title" 
+			 >
+		</activity>
+		<activity android:name=".Documents" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/documents" 
+			android:theme="@android:style/Theme.NoTitleBar"
+			>
+		</activity>
+		<activity android:name=".DownloadDocument" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/downloadDocument"> 
+		</activity>
+		<activity android:name=".AboutDocument"
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/aboutdocument_title" 
+			android:theme="@android:style/Theme.Dialog" >
+		</activity>
+        <activity android:name=".ReadBible"
+            android:label="@string/readBible"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar"
+        >
+        </activity>
+		<activity android:name=".Prefs"
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/settings" >
+		</activity>
+		<activity android:name=".ConfigureWidget"
+			android:label="@string/configureWidget"
+			android:theme="@android:style/Theme.Dialog" >
+			<intent-filter>
+				<action	android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+			</intent-filter>
+		</activity>
+		<receiver android:name=".MyAppWidget">
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/showbookmark_appwidget_provider" />
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+		</receiver>
+    </application>
+</manifest> 
