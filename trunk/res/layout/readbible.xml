@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true">
+<LinearLayout
+	android:id="@+id/topBar"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true">
+    <Button android:id="@+id/btnFullscreen" 
+ 		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/fullscreen_button"
+    	android:layout_marginRight="5dp"    	
+    />
+    <TextView android:text="" android:id="@+id/txtCurrent" android:layout_width="wrap_content" 
+   		android:layout_height="fill_parent" android:layout_weight="1.0" android:gravity="center"
+   		android:textColor="#000000" android:textSize="20sp" 
+   		android:layout_margin="0px"
+        android:padding="0px"
+        android:ellipsize="end" android:singleLine="true"
+        android:background="@drawable/btnfooter_button"
+   		/>
+<!--     
+   	<TextView android:text="" android:id="@+id/txtCurrent" android:layout_width="wrap_content" 
+   		android:layout_height="fill_parent" android:layout_weight="1.0" android:gravity="center"
+   		android:textColor="#ffff00" android:textSize="20sp" android:ellipsize="end" android:singleLine="true" />
+-->   		
+</LinearLayout>
+    
+<ListView
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/topBar"
+	android:layout_above="@+id/bottomBar"
+	android:dividerHeight="0px"
+	android:divider="@null"
+/>
+<TextView
+    android:id="@+id/android:empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:layout_below="@+id/topBar"
+	android:layout_above="@+id/bottomBar"
+	android:textSize="20sp"
+/>
+
+
+<LinearLayout
+	android:id="@+id/bottomBar"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+	<Button android:id="@+id/btnZoomOut" android:layout_width="52dp"
+    	android:layout_height="28dp"
+    	android:background="@drawable/zoomout_button"
+    />
+    <Button android:id="@+id/btnZoomIn" android:layout_width="52dp"
+    	android:layout_height="28dp"
+    	android:background="@drawable/zoomin_button"
+    />
+    <TextView android:id="@+id/txtBibleName"  android:layout_width="fill_parent"
+    	android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="0px"
+        android:padding="0px"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:ellipsize="end" android:singleLine="true"
+        android:background="@drawable/btnfooter_button"	 />
+<!--     
+    <TextView android:id="@+id/txtBibleName" android:layout_width="fill_parent"
+    	android:gravity="center" android:layout_height="fill_parent" 
+    	android:textColor="#ffff00" android:textSize="15sp" android:layout_marginRight="5px"
+    	android:layout_weight="1" 
+    	android:ellipsize="end" android:singleLine="true" />
+-->    	
+</LinearLayout>    
+</RelativeLayout>    

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Open Bibles</string>
+    <string name="app_name_label">OpenBibles</string>
+    <string name="no_bibles">No bible file found.\nUse \"Download\" menu to download bibles.\n\nYou also can import verses collection from internet on \"Bookmarks\" screen.</string>
+    <string name="sdcard_error">SD Card not accessible</string>
+    <string name="no_ot">This bible translation does not contain Old Testament</string>
+    <string name="no_nt">This bible translation does not contain New Testament</string>
+    
+    <string name="dlgGoto_title">Go to</string>    
+    <string name="gotoBible_label">Select Bible</string>
+    <string name="gotoBook_label">Enter book name</string>
+    <string name="gotoChapter_label">Enter chapter</string>
+    <string name="gotoBookAndChapter">Jump to</string>
+    <string name="gotoNoBible">Use \"Download\" menu to download bibles</string>
+    
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    
+    <string name="fontsize_label">Font Size</string>
+    <string name="booklanguage_label">Book Name Language</string>
+    
+    <string name="aboutbible_title">Bible Information</string>
+    <string name="about_title">Open Bibles - About</string>
+	<string name="about_text">
+<b>Open Bibles v5.1\n</b>
+(C) 2011, by Bebbo - Bobbo - BulBul\n
+Email: <a href="mailto:yohan.yudanara@gmail.com">yohan.yudanara@gmail.com</a>\n
+Website: <a href="http://openbibles.wordpress.com">openbibles.wordpress.com</a>\n
+Twitter: <a href="http://twitter.com/openbibles">@OpenBibles</a>\n 
+\n		
+<b>Icons:</b>\n
+<li>Android SDK drawable folders\n</li>
+<li><a href="http://iconshock.deviantart.com/art/Food-Icons-120014856">"Food icons" by Iconshock</a>\n</li> 
+<li><a href="http://dryicons.com/free-icons/preview/valentine-love/">"Valentine Love Icon Set" by DryIcons</a>\n</li>
+<li><a href="http://www.small-icons.com/packs/48x48-free-object-icons.htm">48x48 Free Object Icons by aha-soft</a>\n</li>  
+\n
+<b>Bibles:</b>\n
+<li><a href="http://www.biblegateway.com">http://www.biblegateway.com</a>\n</li>
+<li><a href="http://www.sabda.org">http://www.sabda.org</a>\n</li>
+<li><a href="http://theword.net">http://theword.net</a>\n</li>
+	</string>
+	
+	<string name="pleaseWait">Please Wait</string>
+	<string name="importing">Importing...</string>
+	<string name="exporting">Exporting...</string>
+	<string name="loading">"Loading..."</string>
+	
+	<string name="bookmarks_title">Bibles - Bookmarks</string>
+	<string name="bookmarks_label">Bookmarks</string>
+	<string name="no_bookmarks">No bookmark found in this category.\n\nYou can download bookmarks from internet using "Import" menu.</string>
+	<string name="category">Category :</string>
+	<string name="sort_by">Sort by :</string>
+	<string name="bible">Bible :</string>
+	<string name="importBookmark_label">Import Bookmark</string>
+	<string name="exportBookmark_label">Export Bookmark</string>
+	<string name="viewOption_label">View Option</string>
+	<string name="manageCategory_label">Manage Category</string>
+	<string name="importWarning_label">Note: You can backup current bookmark using \'Export Bookmark\' menu</string>
+	<string name="selectBookmark_label">Select Bookmark file :</string>
+	<string name="no_bookmark_file">No Bookmark file found</string>
+	<string name="import_success">%1$d bookmarks imported successfully</string>
+	<string name="export_success">%1$d bookmarks exported successfully</string>
+	<string name="viewOption">View Option</string>
+	<string name="exportPrompt">Enter Filename</string>
+	<string name="importFrom">Import From:</string>
+	<string name="clearBookmark">Clear Bookmark</string>
+	<string name="reallyClearBookmark">Do you want to clear all bookmarks in this category? </string>
+	<string name="selectBible">Select Bible :</string>
+	
+	<string name="downloadBookmark_title">Bibles - Import Bookmark from Internet</string>
+	<string name="confirmImport">Confirm Import</string>
+	<string name="confirmImportQuestion">Do you want to download and import \'%1$s\' bookmark into your sdcard?</string>
+	<string name="confirmImportOverwrite">You already have \'%1$s\' bookmark in your sdcard.\nDo you want to overwrite the existing?</string>
+	<string name="missingBookmarkFile">Bookmark file is not found on server</string>
+	<string name="repositoryUrlImportValid">%1$d bookmark found</string>
+
+	<string name="addBookmark">Bookmark</string>
+	<string name="editBookmark">Edit Bookmark</string>
+	<string name="removeBookmark">Remove Bookmark</string>
+	<string name="reallyRemoveBookmark">Do you want to remove this bookmark? </string>
+	<string name="changeCategory">Change Category</string>
+	<string name="pickCategory">Pick Category</string>
+	
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	
+	<string name="categories_title">Bibles - Categories</string>
+	<string name="addCategory">Add Category</string>
+	<string name="renameCategory">Rename</string>
+	<string name="categoryName">Category Name</string>
+	<string name="categoryAdded">Category added successfully</string>
+	<string name="categoryRenamed">Category renamed successfully</string>
+	<string name="categoryRemoved">Category removed successfully</string>
+	<string name="categoryExist">Category already exists</string>
+	<string name="removeCategory">Remove Category</string>
+	<string name="reallyRemoveCategory">Do you want to remove this category and all bookmarks inside? </string>
+	<string name="removeAllCategory">Remove All</string>
+	<string name="reallyRemoveAllCategory">Do you want to remove ALL categories and ALL bookmarks ? </string>
+	<string name="categoryAllRemoved">All categories and bookmarks has been removed</string>
+
+	<string name="find_title">Bibles - Find</string>
+	<string name="find">Find</string>
+	<string name="searchIn">Search In:</string>
+	<string name="bothTestament">Old + New Testament</string>
+	<string name="oldTestament">Old Testament</string>
+	<string name="newTestament">New Testament</string>
+	<string name="downloadBibleRequired">Please download a bible translation before using this feature</string>
+	<string name="bibleNameRequired">Please select bible translation. You should download one if it haven\'t exists yet</string>
+	<string name="search_success">Found %1$d verses</string>
+	
+	<string name="clearAllCategory">Clear All Category</string>
+	
+	<string name="downloadBible_title">Bibles - Download</string>
+	<string name="downloadBible">Download</string>
+	<string name="go">Go</string>
+	<string name="downloading">Downloading...</string>
+	<string name="repositoryUrlNotValid">Repository URL is not valid</string>
+	<string name="downloadUrlNotValid">Download URL is not valid</string>
+	<string name="bibleFileNotValid">Bible File is not valid</string>
+	<string name="repositoryUrlValid">%1$d bibles found</string>
+	<string name="fileCorrupt">Sorry, downloaded file is corrupt. Please re-download</string>
+	<string name="missingChecksum">CRC 32 checksum is not found on server</string>
+	<string name="missingBibleFile">Bible file is not found on server</string>
+	<string name="confirmDownload">Confirm Download</string>
+	<string name="confirmDownloadQuestion">Do you want to download \'%1$s\' into your sdcard?</string>
+	<string name="confirmDownloadOverwrite">You already have \'%1$s\' file in your sdcard.\nDo you want to re-download and overwrite the existing?</string>
+	<string name="downloadSuccess">Download Success</string>
+	<string name="downloadCancel">You have canceled download</string>
+	<string name="importCancel">You have canceled import bookmark. %1$d bookmarks already has been imported</string>
+	<string name="extracting">Extracting Bible File</string>
+	<string name="sdcardNotReady">SD card is not accessible</string>
+	
+	<string name="history">History</string>
+	
+	<string name="refresh">Refresh</string>
+	
+	<string name="help">Help</string>
+	<string name="help_title">Bibles - Help</string>
+	<string name="help_main"><b>Tap on Book Name:</b> Going to specific book and chapter.\ne.g.: \ntype <i>1jo</i> to jump into <i>1 John</i>,\ntype <i>ps</i> to jump into <i>Psalm</i>.\nType chapter number only to stay on the same book.\n\n<b>Long press on verse text:</b> Bookmark, Share, Copy verse</string>
+	<string name="help_downloadBible"><b>URL:</b> Choose URL of Bible Repository\n\nDownloaded file will be extracted on <i>/sdcard/OpenBibles/Bible.</i>\nYou also can download bible file from PC and extract .zip file into that folder.\n\nBible Format is in UTF-8 plain text (one verse per line) with three lines bible information at the bottom\n\nRecognized tag on bible text is subset of <a href="http://theword.net">theword.net</a> .ont file:\n
+	&lt;TS&gt;...&lt;Ts&gt; : Heading\n
+	&lt;FR&gt;...&lt;Fr&gt; : Word of Jesus\n
+	&lt;RF&gt;...&lt;Rf&gt; : Footnote\n
+	&lt;CM&gt; : New Paragraph\n
+	&lt;CL&gt; : New Line\n	 
+\nContact <a href="mailto:yohan.yudanara@gmail.com">yohan.yudanara@gmail.com</a> for more information
+	</string>
+	<string name="help_find">Search result will display verses that contains ALL the words you entered.\n\nUse quotes to search for exact phrases, e.g: \"merry heart\".\n\nOnly first 100 results will be displayed.
+	</string>
+	<string name="help_bookmark">Bookmarks can be categorized.\n\n<b>Manage Category:</b> insert/delete category.\n\n<b>Export Bookmark:</b> Save bookmarks to <i>/sdcard/OpenBibles/Bookmark</i>\n\n<b>Import Bookmark:</b> Import bookmarks from SD Card or Internet. Duplicate verses with existing bookmark will be skipped.\n\n<b>View Options:</b> Change sort order and bible version\n\n<b>Long press on verse text:</b> remove bookmark, change category, or copy to clipboard.\n\n<b>Tap on verse text:</b> Open bible
+	</string>
+	<string name="help_category">You should have at least one category.\n\n<b>Long press on category name:</b> rename / remove category.\n\nRemoving category will also remove ALL bookmarks inside
+	</string>
+	<string name="help_downloadBookmark"><b>URL:</b> Choose URL for Bookmark Repository\n\nDownloaded file will be placed on <i>/sdcard/OpenBibles/Bookmark</i> and imported.\nYou also can download bookmark file (.bmk) from PC, put into that folder and use <i>Import Bookmark</i> menu.\n\nBookmark file is UTF-8 plain text.\n\nContact <a href="mailto:yohan.yudanara@gmail.com">yohan.yudanara@gmail.com</a> for more information</string>
+	<string name="help_downloadDocument"><b>URL:</b> Choose URL for Document Repository\n\nDownloaded file will be placed on <i>/sdcard/OpenBibles/Document</i>.\nYou also can download document file (.toc and .con) from PC and put into that folder.\n\nDocument file is UTF-8 plain text.\n\nContact <a href="mailto:yohan.yudanara@gmail.com">yohan.yudanara@gmail.com</a> for more information</string>
+	
+	<string name="goto_title">Go to</string>
+	<string name="browse">Browse...</string>
+	<string name="type">Type...</string>
+	
+	<string name="browseBook_title">Select Book</string>
+	<string name="browseChapter_title">Select Chapter</string>
+
+    <string name="copyToClipboard">Copy to clipboard</string>
+    <string name="copiedSuccess">%1$s copied to clipboard</string>
+    <string name="share">Share</string>
+    
+    <string name="configureWidget">Configure Widget</string>
+    <string name="selectBookLanguage">Select Book Language:</string>
+    <string name="selectBibleTranslation">Select Bible Translation:</string>
+    
+    <string name="documents">Documents</string>
+    <string name="docEmpty">Use \"Download\" menu to download documents from internet\n\nTap on \"Load Document\" on bottom right corner to load document from SD Card</string>
+    <string name="loadDocument">[Load Document]</string>
+    <string name="noDocumentFile">No Document file found</string>
+    <string name="selectDocument">Select Document :</string>
+    <string name="errorLoadingDocument">Error loading document</string>
+    <string name="downloadDocument">Download Document</string>
+    <string name="missingDocumentFile">Document file is not found on server</string>
+    <string name="documentFileNotValid">Document file is not valid</string>
+    <string name="repositoryUrlDocumentValid">%1$d documents found</string>
+    <string name="extractingDocument">Extracting Document File</string>
+    
+    <string name="settings">Settings</string>
+    <string name="prefBookNameTitle">Book Name Language</string>
+    <string name="prefBookNameSummary">Choose book name language</string>
+    <string name="chooseLanguage">Choose Language</string>
+    <string name="aboutdocument_title">Document Information</string>
+    <string name="readBible">Read Bible</string>
+    <string name="no_bible_file">No bible file found.</string>
+    <string name="invalidOpenBible">\'%1$s\' can\'t be found on bible</string>
+    
+    <string name="tryAgain">Nothing found. Please try again.</string>
+    
+    <string-array name="englishOnly">
+		<item>English</item>
+	</string-array>
+    <string-array name="bookLanguages">
+		<item>English</item>
+		<item>Indonesian</item>
+	</string-array>
+	<string-array name="bookLanguageValues">
+		<item>ENG</item>
+		<item>IND</item>
+	</string-array>
+	
+	<string name="prefLangChanged">\'%1$s\' selected</string>
+	
+	<string name="parallelMode">Normal / Parallel</string>
+	
+	<string name="strParallel1">Top Display:</string>
+	<string name="strParallel2">Bottom Display:</string>
+	<string name="selectParallel_title">Select Translations</string>
+	<string name="needMoreTranslation">You need to download 2 or more translations</string>
+	
+	<string name="contactAuthor">Ask Question by Email</string>
+</resources>
