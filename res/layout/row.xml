@@ -10,6 +10,7 @@
             android:focusable="false"
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@+id/txtBookmark"
+            style="?textBible"
             />
     <TextView
             android:id="@+id/txtBookmark"
