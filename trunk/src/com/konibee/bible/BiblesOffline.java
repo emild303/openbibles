@@ -141,6 +141,8 @@ public class BiblesOffline extends ListActivity implements OnClickListener,
 	@Override
 	public void onCreate(Bundle savedInstanceState) {	
 		super.onCreate(savedInstanceState);
+		setTheme(R.style.Theme_Light);
+		
 		bookmarkVerseStart = 1;
 		if (getIntent().getExtras() != null) {
 			this.fromBookmarks = getIntent().getExtras().getBoolean(Constants.FROM_BOOKMARKS, false);
@@ -1317,7 +1319,7 @@ public class BiblesOffline extends ListActivity implements OnClickListener,
 			case R.id.document:
 				state = Environment.getExternalStorageState();
 				if (!Environment.MEDIA_MOUNTED.equals(state)) {
-					Toast.makeText(this, R.string.sdcardNotReady, Toast.LENGTH_LONG);
+					Toast.makeText(this, R.string.sdcardNotReady, Toast.LENGTH_LONG).show();
 					return true;
 				}
 				startActivity(new Intent(this, Documents.class));
@@ -1325,6 +1327,10 @@ public class BiblesOffline extends ListActivity implements OnClickListener,
 			case R.id.settings:
 				gotoPrefs = true;
 				startActivity(new Intent(this, Prefs.class));
+				return true;
+			case R.id.downloadBookname:
+				gotoPrefs = true;
+				startActivity(new Intent(this, DownloadBookname.class));
 				return true;
 		}
 		return false;

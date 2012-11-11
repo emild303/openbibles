@@ -33,7 +33,7 @@ public class Prefs extends PreferenceActivity {
 				display = display.substring(0,1).toUpperCase() + display.substring(1);
 				display = display.substring(0, display.length()-4);
 				listFileDisplay.add(display);
-				listFileValues.add(display);
+				listFileValues.add(display.toLowerCase());
 			}
 			String[] arrDisplay = new String[listFileDisplay.size()];
 			String[] arrValues = new String[listFileValues.size()];
@@ -47,7 +47,9 @@ public class Prefs extends PreferenceActivity {
 			public boolean onPreferenceChange(Preference p,
 					Object newValue) {
 				String str = getResources().getString(R.string.prefLangChanged);
-				String msg = String.format(str, newValue);
+				String display = (String) newValue; 
+				display = display.substring(0,1).toUpperCase() + display.substring(1);
+				String msg = String.format(str, display);
 				Toast.makeText(Prefs.this, msg, Toast.LENGTH_SHORT).show();
 				return true;
 			}

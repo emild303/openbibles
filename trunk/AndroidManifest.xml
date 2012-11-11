@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.konibee.bible"
-      android:versionCode="17"
-      android:versionName="5.3">
+      android:versionCode="18"
+      android:versionName="5.4">
     <uses-sdk android:minSdkVersion="4" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -46,6 +46,10 @@
 		<activity android:name=".DownloadBookmark" 
 			android:configChanges="orientation|keyboardHidden"
 			android:label="@string/downloadBookmark_title"> 
+		</activity>
+		<activity android:name=".DownloadBookname" 
+			android:configChanges="orientation|keyboardHidden"
+			android:label="@string/downloadBookname_title"> 
 		</activity>
 		<activity android:name=".Help" 
 			android:configChanges="orientation|keyboardHidden"

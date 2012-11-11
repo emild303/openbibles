@@ -23,8 +23,8 @@
     <string name="aboutbible_title">Bible Information</string>
     <string name="about_title">Open Bibles - About</string>
 	<string name="about_text">
-<b>Open Bibles v5.1\n</b>
-(C) 2011, by Bebbo - Bobbo - BulBul\n
+<b>Open Bibles v5.4\n</b>
+(C) 2012, by Bebbo - Bobbo - BulBul\n
 Email: <a href="mailto:yohan.yudanara@gmail.com">yohan.yudanara@gmail.com</a>\n
 Website: <a href="http://openbibles.wordpress.com">openbibles.wordpress.com</a>\n
 Twitter: <a href="http://twitter.com/openbibles">@OpenBibles</a>\n 
@@ -74,6 +74,8 @@ Twitter: <a href="http://twitter.com/openbibles">@OpenBibles</a>\n
 	<string name="confirmImportOverwrite">You already have \'%1$s\' bookmark in your sdcard.\nDo you want to overwrite the existing?</string>
 	<string name="missingBookmarkFile">Bookmark file is not found on server</string>
 	<string name="repositoryUrlImportValid">%1$d bookmark found</string>
+	
+	<string name="downloadBookname_title">Bibles - Download Book Name Language</string>
 
 	<string name="addBookmark">Bookmark</string>
 	<string name="editBookmark">Edit Bookmark</string>
@@ -218,4 +220,5 @@ Twitter: <a href="http://twitter.com/openbibles">@OpenBibles</a>\n
 	<string name="needMoreTranslation">You need to download 2 or more translations</string>
 	
 	<string name="contactAuthor">Ask Question by Email</string>
+	<string name="downloadBookname">Download Book Name</string>
 </resources>

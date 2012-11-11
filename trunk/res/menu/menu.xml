@@ -21,6 +21,9 @@
 	<item android:id="@+id/settings"
 		android:title="@string/settings"
 		android:icon="@drawable/menu_settings"/>
+	<item android:id="@+id/downloadBookname"
+		android:title="@string/downloadBookname"
+		android:icon="@drawable/menu_import"/>
 	<item android:id="@+id/contactAuthor"
 		android:title="@string/contactAuthor"
 		android:icon="@drawable/menu_send"/>	

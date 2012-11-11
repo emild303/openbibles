@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_light">
+		<item name="android:textColor">#16242D</item>
+		<item name="android:background">#FEEFE1</item>
+	</style>
+	<style name="text_dark">
+	    <item name="android:textColor">#FEEFE1</item>
+		<item name="android:background">#16242D</item>
+	</style>	
+</resources>

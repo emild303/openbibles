@@ -40,7 +40,8 @@
 	android:id="@+id/linearList" 
     android:layout_height="fill_parent" 
     android:layout_width="fill_parent"
-    android:layout_weight="1">
+    android:layout_weight="1"
+    style="?textBible">
 <ListView
     android:id="@+id/android:list"
     android:layout_width="fill_parent"

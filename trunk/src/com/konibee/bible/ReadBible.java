@@ -724,9 +724,6 @@ public class ReadBible extends ListActivity implements OnClickListener, OnItemCl
 			if (arrBookName[i] == null) break;
 			
 			String book = arrBookName[i].toLowerCase();
-			if (i==42) {
-				Log.d(TAG, "hoho " + book + " " + searchBook);
-			}
 			
 			book = book.replaceAll(" ", "");
 			if (book.startsWith(searchBook)) {
