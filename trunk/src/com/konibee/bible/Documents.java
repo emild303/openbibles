@@ -662,6 +662,7 @@ public class Documents extends Activity implements OnClickListener, OnItemClickL
 							startActivity(readBible);
 						}
 					}, posStartVerse+2, posEndVerse, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+					text.setSpan(new ForegroundColorSpan(Color.CYAN), posStartVerse+2, posEndVerse, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 				}
 				
 				text.setSpan(new ForegroundColorSpan(Color.BLACK), posStartVerse, posStartVerse+2, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);

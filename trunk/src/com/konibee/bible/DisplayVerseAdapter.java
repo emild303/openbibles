@@ -176,17 +176,17 @@ public class DisplayVerseAdapter extends ArrayAdapter<DisplayVerse> implements O
 		for (int i=0; i < posVerseList.size(); i++) {
 			int posVerse = posVerseList.get(i);
 			String strI = String.valueOf(verseNumber);
-//			spanText.setSpan(new ForegroundColorSpan(Color.BLUE), posVerse, posVerse+strI.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			spanText.setSpan(new ForegroundColorSpan(Color.CYAN), posVerse, posVerse+strI.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 		}
 		for (int i=0; i<posTSBeginList.size(); i++) {
 			int posTSBegin = posTSBeginList.get(i);
 			int posTSEnd = posTSEndList.get(i);
-//			spanText.setSpan(new ForegroundColorSpan(Color.GREEN), posTSBegin, posTSEnd, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			spanText.setSpan(new ForegroundColorSpan(Color.GREEN), posTSBegin, posTSEnd, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 		}
 		for (int i=0; i<posFRBeginList.size(); i++) {
 			int posFRBegin = posFRBeginList.get(i);
 			int posFREnd = posFREndList.get(i);
-//			spanText.setSpan(new ForegroundColorSpan(0xffff7777), posFRBegin, posFREnd, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			spanText.setSpan(new ForegroundColorSpan(0xffff7777), posFRBegin, posFREnd, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 		}
 		for (int i=0; i<posRFList.size(); i++) {
 			int posRF = posRFList.get(i);
@@ -207,6 +207,7 @@ public class DisplayVerseAdapter extends ArrayAdapter<DisplayVerse> implements O
 				}
 				
 			}, posRF, posRF+2, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			spanText.setSpan(new ForegroundColorSpan(Color.CYAN), posRF, posRF+2, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 		}
 		
 		if (displayVerse.isBookmark()) {
