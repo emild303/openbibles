@@ -141,7 +141,6 @@ public class BiblesOffline extends ListActivity implements OnClickListener,
 	@Override
 	public void onCreate(Bundle savedInstanceState) {	
 		super.onCreate(savedInstanceState);
-		setTheme(R.style.Theme_Light);
 		
 		bookmarkVerseStart = 1;
 		if (getIntent().getExtras() != null) {
@@ -660,6 +659,8 @@ public class BiblesOffline extends ListActivity implements OnClickListener,
 							str = str + ";;2 Jn";
 						} else if ("3 John".equals(bookName)) {
 							str = str + ";;3 Jn";
+						} else if ("Philemon".equals(bookName)) {
+							str = str + ";;Phm";
 						}
 						outEnglish.println(str);
 					}
